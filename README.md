@@ -25,10 +25,22 @@ There are 12 files with naming convention of YYYYMM-divvy-tripdata and each file
 R analysis was used to combine the various datasets into one dataset and clean it. 
 ### Packages Used 
 1. tidyverse - Helps wrangle data 
-2. lubridate - Helps wrangle data attributes 
-3. ggplot2 - Helps visualise data
+2. lubridate - Helps wrangle data attributes
+3. ggplot2 - Helps visualise data 
 ### Combining Data 
-Before combining the 12 csv files, 
+Before combining the 12 csv files, checked the consistency between the data sets 
+### Preparing Data 
+1. Added date, month, year, day of week columns
+2. Checking and ensuring that data is in numeric
+3. Remove bad data
+### Analyse Phase 
+Calculated 
+1. Descriptive analysis on ride_length
+2. Compare the descriptive analysis among casual users and members
+3. Average ride time by each day for members and casual users
+4. Analyse ridership data by type and week day
+5. Visualisation the number of rides by ridership (casual users and members)
+6. Visualisation for average duration
 
 
 
